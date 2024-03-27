@@ -44,26 +44,31 @@ form input {
     font-size: 24px;
     background-color: #fff;
     border: none;
+    border-radius: 4px;
     border-bottom: 2px solid #000;
     padding: 8px;
+    outline-color: darkgreen;
 }
 
 form input#nota-atividade {
     width: 100px;
+    border-radius: 4px;
 }
 
 form button {
-    background-color: #009432;
+    background-color: darkgreen;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
     border: none;
     cursor: pointer;
     padding: 8px;
+    border-radius: 4px;
+    outline-color: darkgreen;
 }
 
 form button:hover {
-    background-color: #0f682c;
+    background-color: green;
 }
 
 table {
@@ -97,9 +102,9 @@ table td img {
 }
 
 .aprovado {
-    background-color: #009432;
+    background-color: darkgreen;
 }
 
 .reprovado {
-    background-color: red;
+    background-color: darkred;
 }
