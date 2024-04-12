@@ -1,6 +1,7 @@
 # Média de notas
 
-<img src="assets/media.png">
+### Apresentação do projeto
+<video width=600 height='400' controls autoplay loop src="calculadora_de_medias.mp4">Seu navegador não suporte a a tag video</video>
 
 Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
