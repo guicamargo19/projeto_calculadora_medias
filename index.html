@@ -3,30 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
     <title>Média das notas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="overlay"></div>
+    <header>
+        <h1>Calcule a média</h1>
+        <div class="media-entrada">
+            <label for="media">Digite a média para aprovação:</label>
+            <input type="number" name="media" id="media" placeholder="Média" required />
+        </div>
+    </header>
     <div class="container">
-        <header>
-            <img src="./assets/logo.png" alt="Capelo e diploma"/>
-            <h1>Média de notas</h1>
-        </header>
         <form id="form-atividade">
             <input type="text" id="nome-atividade" required placeholder="Nome da atividade" />
-            <input type="number" id="nota-atividade" required placeholder="Nota" min="0" max="10" step="0.1"/>
-            <button type="submit">Adicionar +</button>
+            <input type="number" id="nota-atividade" required placeholder="Nota" min="0" max="10" step="0.1" />
+            <button type="submit">Adicionar</button>
+            <span class="error">Digite a média</span>
         </form>
         <table cellspacing="0">
             <thead>
                 <tr>
                     <th>Nome da ativadade</th>
                     <th>Nota da ativadade</th>
-                    <th>Aprovado?</th>
+                    <th>Aprovação</th>
                 </tr>
             </thead>
             <tbody>
