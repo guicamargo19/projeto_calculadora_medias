@@ -1,7 +1,11 @@
 # Média de notas
 
 ### Apresentação do projeto
-<video width=600 height='400' controls autoplay loop src="calculadora_de_medias.mp4">Seu navegador não suporte a a tag video</video>
+<div width="400" height="200">
+  
+https://github.com/guicamargo19/projeto_calculadora_medias/assets/133445061/d3c7f08a-736f-4287-91b5-72b647ce7f6c
+
+</div>
 
 Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
