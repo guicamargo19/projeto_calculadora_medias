@@ -2,7 +2,7 @@
 
 ### Apresentação do projeto
 
-https://github.com/guicamargo19/projeto_calculadora_medias/assets/133445061/d3c7f08a-736f-4287-91b5-72b647ce7f6c
+https://github.com/guicamargo19/projeto_calculadora_medias/assets/133445061/7fcd7b02-cbd2-4c2b-8537-291faad7dbda
 
 Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 

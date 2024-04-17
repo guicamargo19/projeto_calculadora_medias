@@ -175,3 +175,19 @@ tfoot td {
 .reprovado {
     background-color: darkred;
 }
+
+.direitos {
+    text-align: center;
+    padding-top: 12px;
+    position: relative;
+}
+
+.direitos a {
+    text-decoration: none;
+    color: black;
+}
+
+.direitos a:hover {
+    text-decoration: none;
+    color: #708090;
+}
